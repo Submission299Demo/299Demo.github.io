@@ -62,7 +62,7 @@
           
           <div class="is-size-5 publication-authors">
               <span class="author-block">
-                  Anonymous Writer
+                  Anonymous Authors
               </span>
           </div>
           <!-- Code Icon and Link -->
@@ -93,9 +93,32 @@
       <div class="column is-full-width">
         <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Supplementary Demos</h2>
 
+        <h3 class="title is-4">Offloading with 100ms Latency</h3>
+        <div class="content has-text-justified">
+          <p>
+            We show that offloading head tracking works well, without perceptible jitters at typical network latencies. 
+          </p>
+        </div>
+        
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 autoplay
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 loop
+                 width="90%">
+            <source src="./resources/100latency_full.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
 
         <h3 class="title is-4">No-Offloading</h3>
         <div class="content has-text-justified">
+          <p>
+            We show that without offloading head tracking is very smooth. 
+          </p>
         </div>
         
         <div class="content has-text-centered">
@@ -114,6 +137,9 @@
         
         <h3 class="title is-4">Offloading with 400ms Latency</h3>
         <div class="content has-text-justified">
+          <p>
+            We show that when offloading with latency over 300ms, parts of the rendered graphics start to see perceptible jitters. 
+          </p>
         </div>
         
         <div class="content has-text-centered">
@@ -133,7 +159,7 @@
         <h3 class="title is-4">Side-by-Side Comparison</h3>
         <div class="content has-text-justified">
           <p>
-            We show that offloading head tracking generally works well for normal network scenarios. 
+            We show a side by side comparison over to highlight the difference.
           </p>
         </div>
         
@@ -151,23 +177,6 @@
           </video>
         </div>
         
-        <h3 class="title is-4">Full Trajectory Offloading with 100ms Latency</h3>
-        <div class="content has-text-justified">
-        </div>
-        
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 autoplay
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 loop
-                 width="90%">
-            <source src="./resources/100latency_full.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
 
       </div>
     </div>
