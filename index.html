@@ -140,24 +140,16 @@
       <div class="column is-full-width">
         <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Supplementary Materials Fig6: Flight Simulator</h2>
           <p class="centered-aligned-paragraph">
-	  	Below are videos illustrating flight simulator's visual experience at various emulated network latency levels: 0ms, 100ms, and 400ms. Overall, the experience remains smooth and responsive at latency levels of 0ms and 100ms. However, when operating at 400ms latency, certain visual experience aspects become less than ideal.
+          Visual experience with emulated network latency of (a) 0ms, (b) 100ms, (c) 400ms, and (d) side by side view of a portion of the 0ms and 400ms video showing clear jitters in the latter. The first two provide acceptable visual quality but the 400ms latency sees clear jitters. This is particularly evident in the side-by-side video 
 	  </p>
 
-	  <p class="centered-aligned-paragraph">
-	  To offer a comprehensive view, we have zoomed in on one specific area where the visual experience is notably compromised at 400ms latency. For a clearer comparison, we present this segment side-by-side with its corresponding portion at 0ms latency (shown on the left). This side-by-side comparison aims to help readers better understand how varying levels of latency can impact the overall user experience.</br>
-          </p>
-	  
-	  <p>
-	It is important to note that the aircraft within the Flight Simulator remains stationary. This static positioning serves multiple purposes: firstly, it isolates the variables under examination, focusing solely on the impact of network latency on the system's performance; secondly, it facilitates easier identification of differences in visual quality between varying latency levels. This design choice ensures that any observed effects on visual experience can be confidently attributed to latency variations rather than to the dynamics of the aircraft's movement.
-	  </p>
 
         <h3 class="title is-4">Flight Simulator: 0ms latency</h3>
         <div class="content has-text-justified">
           <p>
-          	This is a video of our flight simulator running fast2 dataset with no injected network latency. As can be empirically observed, the visual experience is smooth and pleasent.  
-	  </p>
+	  	This is a video of our flight simulator running with 0ms emulated network latency. 
+          </p>
         </div>
-        
         <div class="content has-text-centered">
           <video id="replay-video"
                  controls
@@ -174,7 +166,7 @@
         <h3 class="title is-4">Flight Simulator: 100ms injected network latency</h3>
         <div class="content has-text-justified">
           <p>
-	  	This is a video of our flight simulator running fast2 dataset with 100ms injected network latency. As can be empirically observed, offloading at a typical network latencies, the visual experience is still smooth and pleasent. 
+	  	This is a video of our flight simulator running with 100ms emulated network latency. 
           </p>
         </div>
         
@@ -194,7 +186,7 @@
         <h3 class="title is-4">Flight Simulator: 400ms injected network latency</h3>
         <div class="content has-text-justified">
           <p>
-	  	This is a video of our flight simulator running fast2 dataset with 400ms injected network latency. As can be empirically observed, offloading operations at this level of latency result in noticeable jitter, thereby compromising the visual experience and diminishing its overall quality. 
+	  	This is a video of our flight simulator running with 400ms emulated network latency. 
           </p>
         </div>
         
@@ -214,8 +206,8 @@
         <h3 class="title is-4">Side-by-Side Comparison</h3>
         <div class="content has-text-justified">
           <p>
-          We present a side-by-side comparison of video segments showcasing a small portion of the fast2 trajectory in Flight Simulator. On the left, the video operates under 0 ms of network latency, while on the right, it operates under an injected latency of 400 ms. This juxtaposition serves to empirically highlight the differential effects of latency on the quality of the visual experience.
-	  </p>
+	  	    Side by side view of a portion of the 0ms and 400ms video showing clear jitters in the latter. 
+          </p>
         </div>
         
         <div class="content has-text-centered">
